@@ -4,7 +4,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <nav className='flex justify-between items-center bg-cyan-700 px-16 py-3'>
+        <nav className='flex justify-between items-center bg-cyan-700 px-16 py-3 sticky top-0'>
             <div className='text-2xl font-bold hidden md:block text-white'>
                 <Link to={'/'}>Crypto Coins</Link>
             </div>
