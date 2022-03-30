@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Coin = ({ coin }) => {
     const { id, symbol, name, image } = coin;
+
     return (
         <Link to={`/coin/${id}`}>
             <div className="flex justify-between shadow-xl p-3 items-center rounded">
