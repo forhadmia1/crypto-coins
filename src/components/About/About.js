@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='grid grid-cols-2 gap-16 mx-16 mt-20 mb-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-16 mx-16 mt-20 mb-10'>
             <div >
                 <h1 className='text-4xl'>Basic Questions</h1>
                 <h2 className='text-xl font-bold mt-10'>What is accessibility?</h2>

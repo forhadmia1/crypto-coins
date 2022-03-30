@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 import UsAddress from './components/UsAddress/UsAddress';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='us-address' element={<UsAddress/>}/>
         </Route>
         <Route path='/about' element={<About/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>

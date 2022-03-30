@@ -23,7 +23,7 @@ const Coins = () => {
                     <h1 className='text-4xl font-bold text-slate-600 text-center'>Available Crypto Currencies</h1>
                     <p className='text-xl font-bold text-slate-500 text-center mt-4'>Total Coins: {coins.length}</p>
                 </div>
-                <div className="grid grid-cols-3 gap-20 px-20 my-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-20 px-20 my-10">
                     {
                         coins.map(coin => <Coin key={coin.id} coin={coin}></Coin>)
                     }
