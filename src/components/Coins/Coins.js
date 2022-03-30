@@ -10,8 +10,6 @@ const Coins = () => {
             .then(data => setCoins(data))
     }, [])
 
-    console.log(coins)
-
     return (
         <div>
             <div className='mt-20'>
