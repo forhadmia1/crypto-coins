@@ -23,7 +23,7 @@ const CoinDetails = () => {
     return (
         <>
             {loading ? (<Spinner/>) : (<div className='grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto my-20'>
-                <div className="pl-10 order-2 mt-10 md:mt-0">
+                <div className="pl-10  mt-10 md:mt-0 order-2">
                     <h1 className='text-4xl'>General Info:</h1>
                     <hr />
                     <p>Coin Name: {name}</p>
@@ -39,7 +39,7 @@ const CoinDetails = () => {
                     <p>Liquidity Score: {liquidity_score}</p>
                     <p>Public Interest Score: {public_interest_score}</p>
                 </div>
-                <div className="flex justify-center items-center order-1">
+                <div className="flex justify-center items-center order-1 md:order-3">
                     <img src={image?.large} alt="" />
                 </div>
             </div>)}
